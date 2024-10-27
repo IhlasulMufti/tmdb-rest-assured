@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/MovieDetailsTest.java">
+        <classes>
+            <class name="com.juaracoding.NowPlayingTest">
+                <methods>
+                    <include name="testGetNowPlayingMovies"/>
+                    <include name="testRequestWithoutToken"/>
+                    <include name="testWrongUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/NowPlayingTest.java">
+        <classes>
+            <class name="com.juaracoding.PopularMoviesTest">
+                <methods>
+                    <include name="testGetPopularMovies"/>
+                    <include name="testRequestWithoutToken"/>
+                    <include name="testWrongUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/PopularMoviesTest.java">
+        <classes>
+            <class name="com.juaracoding.RatingTest">
+                <methods>
+                    <include name="testPostMovieRating"/>
+                    <include name="testWithoutContentType"/>
+                    <include name="testRequestWithoutToken"/>
+                    <include name="testWrongUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/RatingTest.java">
+        <classes>
+            <class name="com.juaracoding.MovieDetailsTest">
+                <methods>
+                    <include name="testGetMovieDetails"/>
+                    <include name="testRequestWithoutToken"/>
+                    <include name="testWrongUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
