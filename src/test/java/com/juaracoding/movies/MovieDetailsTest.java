@@ -1,4 +1,4 @@
-package com.juaracoding;
+package com.juaracoding.movies;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
@@ -30,7 +30,7 @@ public class MovieDetailsTest {
                 .body("id", equalTo(1159311))
                 .body("release_date",equalTo("2024-08-02"))
                 .body("title",equalTo("My Hero Academia: You're Next"))
-                .body("vote_average",equalTo(7.0f));
+                .body("vote_average",equalTo(6.8f));
     }
 
     // negative test

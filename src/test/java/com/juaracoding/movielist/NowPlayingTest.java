@@ -1,4 +1,4 @@
-package com.juaracoding;
+package com.juaracoding.movielist;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

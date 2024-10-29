@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/MovieDetailsTest.java">
         <classes>
-            <class name="com.juaracoding.NowPlayingTest">
+            <class name="com.juaracoding.movielist.NowPlayingTest">
                 <methods>
                     <include name="testGetNowPlayingMovies"/>
                     <include name="testRequestWithoutToken"/>
@@ -16,7 +16,7 @@
     <test verbose="2" preserve-order="true"
           name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/NowPlayingTest.java">
         <classes>
-            <class name="com.juaracoding.PopularMoviesTest">
+            <class name="com.juaracoding.movielist.PopularMoviesTest">
                 <methods>
                     <include name="testGetPopularMovies"/>
                     <include name="testRequestWithoutToken"/>
@@ -28,7 +28,7 @@
     <test verbose="2" preserve-order="true"
           name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/PopularMoviesTest.java">
         <classes>
-            <class name="com.juaracoding.RatingTest">
+            <class name="com.juaracoding.movies.RatingTest">
                 <methods>
                     <include name="testPostMovieRating"/>
                     <include name="testWithoutContentType"/>
@@ -41,7 +41,7 @@
     <test verbose="2" preserve-order="true"
           name="D:/Mufti/Data/SQA RPA/Coding/tmdb-rest-assured/src/test/java/com/juaracoding/RatingTest.java">
         <classes>
-            <class name="com.juaracoding.MovieDetailsTest">
+            <class name="com.juaracoding.movies.MovieDetailsTest">
                 <methods>
                     <include name="testGetMovieDetails"/>
                     <include name="testRequestWithoutToken"/>
